@@ -1,5 +1,6 @@
 # Contributors of German localization #
 #   ThexXTURBOXx (Collaborator of Reforged) 2016-2-29 ---- 2016-3-3
+#   L3ice 2016-3-14 ---- 2016-3-14
 
 # General
 of.general.ambiguous=Unklar
@@ -10,39 +11,39 @@ of.general.restart=Neustart
 of.general.smart=Fein
 
 # Message
-of.message.aa.shaders1=Antialiasing ist mit Shader-Effekten nicht kompatibel.
-of.message.aa.shaders2=Bitte deaktiviere Shader-Effekte um diese Einstellung zu aktivieren.
+of.message.aa.shaders1=Antialiasing ist mit Shadern nicht kompatibel.
+of.message.aa.shaders2=Bitte deaktiviere Shader um diese Einstellung zu aktivieren.
 
-of.message.af.shaders1=Anistropische Filterung ist nicht mit Shader-Effekten kompatibel.
-of.message.af.shaders2=Bitte deaktiviere Shader-Effekte um diese Einstellung zu aktivieren.
+of.message.af.shaders1=Anisotrope Filterung ist nicht mit Shadern kompatibel.
+of.message.af.shaders2=Bitte deaktiviere Shader um diese Einstellung zu aktivieren.
 
-of.message.fr.shaders1=Schnelles Rendern ist nicht mit Shader-Effekten kompatibel.
-of.message.fr.shaders2=Bitte deaktiviere Shader-Effekte um diese Einstellung zu aktivieren.
+of.message.fr.shaders1=Schnelles Rendern ist nicht mit Shadern kompatibel.
+of.message.fr.shaders2=Bitte deaktiviere Shader um diese Einstellung zu aktivieren.
 
-of.message.shaders.aa1=Antialiasing ist nicht mit Shader-Effekten kompatibel. 
+of.message.shaders.aa1=Antialiasing ist nicht mit Shadern kompatibel. 
 of.message.shaders.aa2=Bitte stelle Qualität -> Antialiasing auf AUS und starte das Spiel neu.
 
-of.message.shaders.af1=Anistropische Filterung ist nicht mit Shader-Effekten kompatibel.
-of.message.shaders.af2=Bitte stelle Qualität -> Anistropische Filterung auf AUS.
+of.message.shaders.af1=Anisotrope Filterung ist nicht mit Shader-Effekten kompatibel.
+of.message.shaders.af2=Bitte stelle Qualität -> Anisotrope Filterung auf AUS.
 
-of.message.shaders.fr1=Schnelles Rendern ist nicht mit Shader-Effekten kompatibel.
+of.message.shaders.fr1=Schnelles Rendern ist nicht mit Shadern kompatibel.
 of.message.shaders.fr2=Bitte stelle Leistung -> Schnelles Rendern auf AUS.
 
 of.message.newVersion=Eine neue Version von §eOptiFine§f ist verfügbar: §e%s§f
-of.message.java64Bit=Du kannst §e64-bit Java§f installieren, um die Leistung zu verbessern
+of.message.java64Bit=Du kannst §e64-Bit Java§f installieren, um die Leistung zu verbessern
 of.message.openglError=§eOpenGL Fehler§f: %s (%s)
 
-of.message.shaders.loading=Lade Shader-Effekte: %s
+of.message.shaders.loading=Lade Shader: %s
 
-of.message.other.reset=Alle Videoeinstellungen auf die Standardwerte zurücksetzen?
+of.message.other.reset=Alle Grafikeinstellungen auf die Standardwerte zurücksetzen?
  
 # Video settings
 
 options.graphics.tooltip.1=Visuelle Qualität
-options.graphics.tooltip.2=  Schnell - Schlechtere Qualität, schneller
-options.graphics.tooltip.3=  Schön   - Höhere Qualität, langsamer
-options.graphics.tooltip.4=Verändert das Aussehen der Wolken, Blätter, Grasseiten,
-options.graphics.tooltip.5=Schatten und von Wasser.
+options.graphics.tooltip.2=  Schnell - schlechtere Qualität, schneller
+options.graphics.tooltip.3=  Schön   - höhere Qualität, langsamer
+options.graphics.tooltip.4=Verändert das Aussehen der Wolken, Laub, Wasser,
+options.graphics.tooltip.5=Schatten und Gras Seiten.
 
 of.options.renderDistance.extreme=Extrem
 
@@ -52,7 +53,7 @@ options.renderDistance.tooltip.3=  4 Klein - 64m (schnell)
 options.renderDistance.tooltip.4=  8 Normal - 128m
 options.renderDistance.tooltip.5=  16 Weit - 256m (langsam)
 options.renderDistance.tooltip.6=  32 Extrem - 512m (am langsamsten!)
-options.renderDistance.tooltip.7=Die extreme sehbare Distanz ist sehr ressourcenaufwendig!
+options.renderDistance.tooltip.7=Die "Extrem" sehbare Distanz ist sehr ressourcenaufwendig!
 options.renderDistance.tooltip.8=Werte über 16 Weit sind nur in lokalen Welten effektiv.
 
 options.ao.tooltip.1=Weiche Beleuchtung
@@ -60,13 +61,13 @@ options.ao.tooltip.2=  AUS - keine weiche Beleuchtung (schnell)
 options.ao.tooltip.3=  Minimum - einfache weiche Beleuchtung (langsam)
 options.ao.tooltip.4=  Maximum - komplexe weiche Beleuchtung (am langsamsten)
 
-options.framerateLimit.tooltip.1=Maximale Bildwiederholrate
-options.framerateLimit.tooltip.2=  V-Sync - auf Monitor-Bildwiederholrate beschränken (60, 30, 20)
+options.framerateLimit.tooltip.1=Maximale Bildrate
+options.framerateLimit.tooltip.2=  VSync - auf Monitor-Bildrate beschränken (60, 30, 20)
 options.framerateLimit.tooltip.3=  5-255 - variabel
 options.framerateLimit.tooltip.4=  Unendlich - kein Limit (am schnellsten)
-options.framerateLimit.tooltip.5=Die Bildwiederholrate beschränkt die FPS, sogar wenn
+options.framerateLimit.tooltip.5=Die Bildrate beschränkt die FPS, sogar wenn
 options.framerateLimit.tooltip.6=das Limit nicht erreicht ist.
-of.options.framerateLimit.vsync=V-Sync
+of.options.framerateLimit.vsync=VSync
 
 of.options.AO_LEVEL=Weiche Beleuchtungsstufen
 of.options.AO_LEVEL.tooltip.1=Weiche Beleuchtungsstufen
@@ -75,20 +76,20 @@ of.options.AO_LEVEL.tooltip.3=  50%% - helle Schatten
 of.options.AO_LEVEL.tooltip.4=  100%% - dunkle Schatten
 
 options.viewBobbing.tooltip.1=Realistischere Bewegung
-options.viewBobbing.tooltip.2=Wenn Mipmaps verwendet werden, stelle es auf AUS für beste Ergebnisse.
+options.viewBobbing.tooltip.2=Wenn Mipmaps verwendet wird, stelle es auf AUS für die besten Ergebnisse.
 
 options.guiScale.tooltip.1=GUI-Größe
-options.guiScale.tooltip.2=Eine kleinere GUI ist eventuell schneller
+options.guiScale.tooltip.2=Kleineres GUI ist eventuell schneller
 
-options.vbo.tooltip.1=Vertexbufferobjekte
+options.vbo.tooltip.1=Vertex Buffer Objekte
 options.vbo.tooltip.2=Benutzt ein alternatives Rendering-Modell, das normalerweise
-options.vbo.tooltip.3=(5-10%%) schneller ist als das Standard-Rendering.
+options.vbo.tooltip.3=(5-10%%) schneller als das Standard-Rendering ist.
 
 options.gamma.tooltip.1=Erhöht die Helligkeit dunkler Objekte
 options.gamma.tooltip.2=  AUS - Standardhelligkeit
 options.gamma.tooltip.3=  100%% - Maximale Helligkeit für dunkle Objekte
 options.gamma.tooltip.4=Diese Einstellungen ändern nicht die Helligkeit von 
-options.gamma.tooltip.5=ganz schwarzen Objekten
+options.gamma.tooltip.5=völlig schwarzen Objekten
 
 options.anaglyph.tooltip.1=3D-Anaglypheffekt
 options.anaglyph.tooltip.2=Aktiviert einen stereoskopischen 3D-Effekt durch benutzen
@@ -96,37 +97,37 @@ options.anaglyph.tooltip.3=verschiedener Farben für jedes Auge
 options.anaglyph.tooltip.4=Benötigt eine Rot-Cyan-Brille für korrekte Sicht.
 
 options.blockAlternatives.tooltip.1=Alternative Blöcke
-options.blockAlternatives.tooltip.2=Benutzt alternative Blockmodelle für ein paar Blöcke.
-options.blockAlternatives.tooltip.3=Kommt auf das ausgewählte Ressourcenpaket an.
+options.blockAlternatives.tooltip.2=Benutzt alternative Blockmodelle für einige Blöcke.
+options.blockAlternatives.tooltip.3=Hängt von dem ausgewählten Ressourcenpaket ab.
 
 of.options.FOG_FANCY=Nebel
 of.options.FOG_FANCY.tooltip.1=Nebeltyp
-of.options.FOG_FANCY.tooltip.2=  Schnell - Schneller Nebel
-of.options.FOG_FANCY.tooltip.3=  Schön - Langsamer Nebel, sieht besser aus
-of.options.FOG_FANCY.tooltip.4=  AUS - Kein Nebel, am schnellsten
+of.options.FOG_FANCY.tooltip.2=  Schnell - schneller Nebel
+of.options.FOG_FANCY.tooltip.3=  Schön - langsamer Nebel, sieht besser aus
+of.options.FOG_FANCY.tooltip.4=  AUS - kein Nebel, am schnellsten
 of.options.FOG_FANCY.tooltip.5=Der schöne Nebel ist nur verfügbar, wenn er von der Grafikkarte
 of.options.FOG_FANCY.tooltip.6=unterstützt wird.
 
-of.options.FOG_START=Nebelstart
-of.options.FOG_START.tooltip.1=Nebelstart
-of.options.FOG_START.tooltip.2=  0.2 - Der Nebel startet nahe beim Spieler
-of.options.FOG_START.tooltip.3=  0.8 - Der Nebel startet weit weg vom Spieler
+of.options.FOG_START=Nebelhöhe
+of.options.FOG_START.tooltip.1=Nebelhöhe
+of.options.FOG_START.tooltip.2=  0.2 - Der Nebel beginnt nahe beim Spieler
+of.options.FOG_START.tooltip.3=  0.8 - Der Nebel beginnt weit entfernt vom Spieler
 of.options.FOG_START.tooltip.4=Diese Option beeinflusst normalerweise nicht die Leistung.
 
-of.options.CHUNK_LOADING=Chunkladen
-of.options.CHUNK_LOADING.tooltip.1=Chunkladen
+of.options.CHUNK_LOADING=Chunk Ladung
+of.options.CHUNK_LOADING.tooltip.1=Chunk Ladung
 of.options.CHUNK_LOADING.tooltip.2=  Standard - unstabile FPS, wenn Chunks geladen werden
 of.options.CHUNK_LOADING.tooltip.3=  Weich - stabile FPS
 of.options.CHUNK_LOADING.tooltip.4=  Multi-Kern - stabile FPS, 3x schnelleres Weltladen
 of.options.CHUNK_LOADING.tooltip.5=Weich und Multi-Kern entfernen Ruckler und
-of.options.CHUNK_LOADING.tooltip.6=Standbilder, welche durch Chunkladen verursacht werden.
+of.options.CHUNK_LOADING.tooltip.6=Standbilder, welche durch die Chunk Ladung verursacht werden.
 of.options.CHUNK_LOADING.tooltip.7=Multi-Kern kann das Weltladen 3x schneller machen und
 of.options.CHUNK_LOADING.tooltip.8=die FPS erhöhen, indem es einen zweiten CPU-Kern benutzt.
 of.options.chunkLoading.smooth=Weich
 of.options.chunkLoading.multiCore=Multi-Kern
 
-of.options.shaders=Shader-Effekte...
-of.options.shadersTitle=Shader-Effekte
+of.options.shaders=Shader...
+of.options.shadersTitle=Shader
 
 of.options.shaders.ANTIALIASING=Antialiasing
 of.options.shaders.NORMAL_MAP=Normale Karte
@@ -182,7 +183,7 @@ of.options.MIPMAP_TYPE.tooltip.6=  Trilinear - Feinste Abweichung (am langsamste
 
 of.options.AA_LEVEL=Antialiasing
 of.options.AA_LEVEL.tooltip.1=Antialiasing
-of.options.AA_LEVEL.tooltip.2= AUS - (Standard) kein Antialiasing (schneller)
+of.options.AA_LEVEL.tooltip.2= AUS - (Voreinstellung) kein Antialiasing (schneller)
 of.options.AA_LEVEL.tooltip.3= 2-16 - antialiasierte Linien und Ecken (langsamer)
 of.options.AA_LEVEL.tooltip.4=Das Antialiasing weicht gezackte Linien ab und 
 of.options.AA_LEVEL.tooltip.5=verschärft Farbübergänge.
@@ -190,11 +191,11 @@ of.options.AA_LEVEL.tooltip.6=Wenn aktiviert, sollte es im Wesentlichen die FPS 
 of.options.AA_LEVEL.tooltip.7=Nicht alle Stufen werden von allen Grafikkarten unterstützt.
 of.options.AA_LEVEL.tooltip.8=Erst nach einem NEUSTART effektiv!
 
-of.options.AF_LEVEL=Anisotropische Filterung
-of.options.AF_LEVEL.tooltip.1=Anisotropische Filterung
-of.options.AF_LEVEL.tooltip.2= AUS - (Standard) Standard Texturdetails (schneller)
+of.options.AF_LEVEL=Anisotrope Filterung
+of.options.AF_LEVEL.tooltip.1=Anisotrope Filterung
+of.options.AF_LEVEL.tooltip.2= AUS - (Voreinstellung) Standard Texturdetails (schneller)
 of.options.AF_LEVEL.tooltip.3= 2-16 - Feiner Details in mipmapped Texturen (langsamer)
-of.options.AF_LEVEL.tooltip.4=Die Anisotropische Filterung stellt Details in Mipmapped
+of.options.AF_LEVEL.tooltip.4=Die Anisotrope Filterung stellt Details in Mipmapped
 of.options.AF_LEVEL.tooltip.5=Texturen wieder her.
 of.options.AF_LEVEL.tooltip.6=Wenn aktiviert, sollte es im Wesentlichen die FPS erhöhen.
 
